@@ -217,12 +217,40 @@ async def start_command(client: Client, message: Message):
             except Exception as e:
                 print(f"Error updating notification with 'Get File Again' button: {e}")
     else:
-        reply_markup = InlineKeyboardMarkup(
-            [
-                    [InlineKeyboardButton("Contact Support", url=BAN_SUPPORT)],
-
-    ]
+        reply_markup = InlineKeyboardMarkup([
+    [
+        InlineKeyboardButton(
+            'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ⁠✿',
+            url='https://t.me/Hari_Moviez'
         )
+    ],
+    [
+        InlineKeyboardButton(
+            'ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⁠✷',
+            url='https://t.me/iPopcornMoviesGroups'
+        ),
+        InlineKeyboardButton(
+            'ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 2 ⁠◕',
+            url='https://t.me/Hari_Searchx'
+        )
+    ],
+    [
+        InlineKeyboardButton(
+            'ғɪʟᴇꜱ ᴄʜᴀɴɴᴇʟ ⁠●',
+            url='https://t.me/+Fey8agWUFMBkNDk1'
+        ),
+        InlineKeyboardButton(
+            'ғɪʟᴇꜱ ᴄʜᴀɴɴᴇʟ 2',
+            url='https://t.me/hari_kannada_cinema'
+        )
+    ],
+    [
+        InlineKeyboardButton(
+            'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ 2 ⁠✿',
+            url='https://t.me/TG_BOTS_UPDATE'
+        )
+    ]
+]))
         await message.reply_photo(
             photo=random.choice(START_PIC),
             caption=START_MSG.format(
