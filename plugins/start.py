@@ -70,19 +70,40 @@ async def start_command(client: Client, message: Message):
         return await message.reply_text(
             "<b>⛔️ You are Bᴀɴɴᴇᴅ from using this bot.</b>\n\n"
             "<i>Contact support if you think this is a mistake.</i>",
-            reply_markup=InlineKeyboardMarkup(
-                InlineKeyboardButton('ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ⁠✿', url='https://t.me/Hari_Moviez')
-            ],[
-            InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⁠✷', url='https://t.me/iPopcornMoviesGroups'),
-            InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 2 ⁠◕', url='https://t.me/Hari_Searchx')
-            ],[
-            InlineKeyboardButton('ғɪʟᴇꜱ ᴄʜᴀɴɴᴇʟ ⁠●', url='https://t.me/+Fey8agWUFMBkNDk1'),
-            InlineKeyboardButton('ғɪʟᴇꜱ ᴄʜᴀɴɴᴇʟ 2', url='https://t.me/hari_kannada_cinema')
-            ],[
-            InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
-            ],[
-            InlineKeyboardButton('ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ 2 ⁠✿', url='https://t.me/TG_BOTS_UPDATE')]))
+            reply_markup = InlineKeyboardMarkup([
+    [
+        InlineKeyboardButton(
+            'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ⁠✿',
+            url='https://t.me/Hari_Moviez'
+        )
+    ],
+    [
+        InlineKeyboardButton(
+            'ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⁠✷',
+            url='https://t.me/iPopcornMoviesGroups'
+        ),
+        InlineKeyboardButton(
+            'ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 2 ⁠◕',
+            url='https://t.me/Hari_Searchx'
+        )
+    ],
+    [
+        InlineKeyboardButton(
+            'ғɪʟᴇꜱ ᴄʜᴀɴɴᴇʟ ⁠●',
+            url='https://t.me/+Fey8agWUFMBkNDk1'
+        ),
+        InlineKeyboardButton(
+            'ғɪʟᴇꜱ ᴄʜᴀɴɴᴇʟ 2',
+            url='https://t.me/hari_kannada_cinema'
+        )
+    ],
+    [
+        InlineKeyboardButton(
+            'ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ 2 ⁠✿',
+            url='https://t.me/TG_BOTS_UPDATE'
+        )
+    ]
+])
 
     # File auto-delete time in seconds
     FILE_AUTO_DELETE = await db.get_del_timer()
