@@ -103,7 +103,7 @@ async def start_command(client: Client, message: Message):
             url='https://t.me/TG_BOTS_UPDATE'
         )
     ]
-])
+]))
 
     # File auto-delete time in seconds
     FILE_AUTO_DELETE = await db.get_del_timer()
