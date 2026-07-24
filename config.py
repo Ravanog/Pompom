@@ -34,11 +34,11 @@ SHORTLINK_API = os.environ.get("SHORTLINK_API", "7ec0f6c62f20266998ba5a7ae16a1e1
 TUT_VID = os.environ.get("TUT_VID","https://t.me/HK_How_To_Open/2")
 SHORT_MSG = "<b>⌯ ʜᴇʀᴇ ɪꜱ ʏᴏᴜʀ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ, ᴍᴜꜱᴛ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ʙᴇғᴏʀᴇ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴅᴏᴡɴʟᴏᴀᴅ......</b>"
 
-SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://image.zaw-myo.workers.dev/image/809ae7d0-67bd-42f7-bc45-4c820fc0266a")
+SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://image-link.edgeone.app/1784903800229-bmebui.jpg")
 #--------------------------------------------
 
 #--------------------------------------------
-HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @TG_Bots_Support\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/Harikushal>Kushal</a></blockquote></b>"
+HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @Hari_Moviez\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/Harikushal>Kushal</a></blockquote></b>"
 ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/TG_Bots_Support>Kannada Backup</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/TG_BOTS_UPDATE>ʜᴋ ᴄʜᴀɴɴᴇʟ ɴᴇᴛᴡᴏʀᴋ</a></blockquote></b>"
 #--------------------------------------------
 #--------------------------------------------
