@@ -250,7 +250,7 @@ async def start_command(client: Client, message: Message):
             url='https://t.me/TG_BOTS_UPDATE'
         )
     ]
-]))
+])
         await message.reply_photo(
             photo=random.choice(START_PIC),
             caption=START_MSG.format(
