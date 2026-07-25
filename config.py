@@ -42,7 +42,7 @@ HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏ�
 ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/TG_Bots_Support>Kannada Backup</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/TG_BOTS_UPDATE>ʜᴋ ᴄʜᴀɴɴᴇʟ ɴᴇᴛᴡᴏʀᴋ</a></blockquote></b>"
 #--------------------------------------------
 #--------------------------------------------
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {mention} 👋\n\n<blockquote> ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote></b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {mention} 👋\n\n<blockquote>🎬 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴅᴠᴅ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ 🍿\n👋 ɪ ᴀᴍ ʏᴏᴜʀ ᴘʀɪᴠᴀᴛᴇ ᴘʀᴇᴅᴠᴅ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ 📥 ɪ sᴇᴄᴜʀᴇʟʏ sᴛᴏʀᴇ ᴘʀᴇᴅᴠᴅ ᴍᴏᴠɪᴇ ғɪʟᴇs ɪɴ ᴀ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🔗 ᴇᴠᴇʀʏ ғɪʟᴇ ɪs ᴀᴄᴄᴇssɪʙʟᴇ ᴏɴʟʏ ᴠɪᴀ ᴀ sᴇᴄᴜʀᴇ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote>\n\n ⚡ ғᴀsᴛ • sᴇᴄᴜʀᴇ • ᴘʀɪᴠᴀᴛᴇ <blockquote>\n📢 ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ɢʀᴏᴜᴘ ʙᴇʟᴏᴡ ғᴏʀ ᴛʜᴇ ʟᴀᴛᴇsᴛ ᴜᴘᴅᴀᴛᴇs, ɴᴇᴡ ʀᴇʟᴇᴀsᴇs, ᴀɴᴅ sᴜᴘᴘᴏʀᴛ. ❤️ </blockquote></b>")
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {mention} 👋\n\n<b><blockquote>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.</b></blockquote>")
 
 CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockquote>
