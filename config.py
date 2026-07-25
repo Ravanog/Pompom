@@ -32,7 +32,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://image-link.edgeone.app/17849034
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "7ec0f6c62f20266998ba5a7ae16a1e1095cad590")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/HK_How_To_Open/2")
-SHORT_MSG = "<b>⌯ ʜᴇʀᴇ ɪꜱ ʏᴏᴜʀ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ, ᴍᴜꜱᴛ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ʙᴇғᴏʀᴇ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴅᴏᴡɴʟᴏᴀᴅ......</b>"
+SHORT_MSG = "<b><blockquote>⌯ 🔗 ʏᴏᴜʀ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ɪꜱ ʀᴇᴀᴅʏ!</blockquote> \n⚠️ ᴡᴀᴛᴄʜ ᴛʜᴇ ᴛᴜᴛᴏʀɪᴀʟ ғɪʀꜱᴛ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ''ᴅᴏᴡɴʟᴏᴀᴅ''.......</b>"
 
 SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://image-link.edgeone.app/1784903800229-bmebui.jpg")
 #--------------------------------------------
