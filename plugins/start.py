@@ -24,15 +24,23 @@ from urllib.parse import quote
 BAN_SUPPORT = f"{BAN_SUPPORT}"
 TUT_VID = f"{TUT_VID}"
 
+
 async def short_url(client: Client, message: Message, base64_string):
     try:
         # Telegram link after shortlink
         telegram_link = f"https://t.me/{client.username}?start=yu3elk{base64_string}7"
 
-        # Encode it so it can be passed safely in the URL
-        encoded = quote(telegram_link, safe="")
+        # Generate shortlink
+        short_link = await get_shortlink(
+            SHORTLINK_URL,
+            SHORTLINK_API,
+            telegram_link
+        )
 
-        # Website link
+        # Encode shortlink for website
+        encoded = quote(short_link, safe="")
+
+        # Website URL
         website_link = f"https://harixmoviez.vercel.app/?redirect={encoded}"
 
         buttons = [
@@ -61,7 +69,7 @@ async def short_url(client: Client, message: Message, base64_string):
         )
 
     except Exception as e:
-        print(e)
+        print("Shortlink Error:", e)
 
 @Bot.on_message(filters.command('start') & filters.private)
 async def start_command(client: Client, message: Message):
