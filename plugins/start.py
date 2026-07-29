@@ -12,6 +12,7 @@ from pyrogram.enums import ParseMode, ChatAction
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, ReplyKeyboardMarkup, ChatInviteLink, ChatPrivileges
 from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
 from pyrogram.errors import FloodWait, UserIsBlocked, InputUserDeactivated, UserNotParticipant
+from config import WEBSITE_URL, WEBSITE_URL_MODE
 from bot import Bot
 from config import *
 from helper_func import *
@@ -28,13 +29,22 @@ async def short_url(client: Client, message: Message, base64_string):
         short_link = await get_shortlink(SHORTLINK_URL, SHORTLINK_API, prem_link)
 
         buttons = [
-            [
-                InlineKeyboardButton(text="ᴅᴏᴡɴʟᴏᴀᴅ", url=short_link),
-                InlineKeyboardButton(text="ᴛᴜᴛᴏʀɪᴀʟ", url=TUT_VID)
-            ],
-            [
-                InlineKeyboardButton(text="ᴘʀᴇᴍɪᴜᴍ", callback_data="premium")
-            ]
+    [
+        InlineKeyboardButton(
+            text="ᴅᴏᴡɴʟᴏᴀᴅ",
+            url=f"{WEBSITE_URL}?yu3elk{base64_string}7"
+        ),
+        InlineKeyboardButton(
+            text="ᴛᴜᴛᴏʀɪᴀʟ",
+            url=TUT_VID
+        )
+    ],
+    [
+        InlineKeyboardButton(
+            text="ᴘʀᴇᴍɪᴜᴍ",
+            callback_data="premium"
+        )
+    ]
         ]
 
         await message.reply_photo(
