@@ -18,6 +18,7 @@ from config import *
 from helper_func import *
 from database.database import *
 from database.db_premium import *
+from urllib.parse import quote
 
 
 BAN_SUPPORT = f"{BAN_SUPPORT}"
@@ -25,26 +26,32 @@ TUT_VID = f"{TUT_VID}"
 
 async def short_url(client: Client, message: Message, base64_string):
     try:
-        prem_link = f"https://t.me/{client.username}?start=yu3elk{base64_string}7"
-        short_link = await get_shortlink(SHORTLINK_URL, SHORTLINK_API, prem_link)
+        # Telegram link after shortlink
+        telegram_link = f"https://t.me/{client.username}?start=yu3elk{base64_string}7"
+
+        # Encode it so it can be passed safely in the URL
+        encoded = quote(telegram_link, safe="")
+
+        # Website link
+        website_link = f"https://harixmoviez.vercel.app/?redirect={encoded}"
 
         buttons = [
-    [
-        InlineKeyboardButton(
-            text="ᴅᴏᴡɴʟᴏᴀᴅ",
-            url=f"{WEBSITE_URL}?yu3elk{base64_string}7"
-        ),
-        InlineKeyboardButton(
-            text="ᴛᴜᴛᴏʀɪᴀʟ",
-            url=TUT_VID
-        )
-    ],
-    [
-        InlineKeyboardButton(
-            text="ᴘʀᴇᴍɪᴜᴍ",
-            callback_data="premium"
-        )
-    ]
+            [
+                InlineKeyboardButton(
+                    text="ᴅᴏᴡɴʟᴏᴀᴅ",
+                    url=website_link
+                ),
+                InlineKeyboardButton(
+                    text="ᴛᴜᴛᴏʀɪᴀʟ",
+                    url=TUT_VID
+                )
+            ],
+            [
+                InlineKeyboardButton(
+                    text="ᴘʀᴇᴍɪᴜᴍ",
+                    callback_data="premium"
+                )
+            ]
         ]
 
         await message.reply_photo(
@@ -54,8 +61,7 @@ async def short_url(client: Client, message: Message, base64_string):
         )
 
     except Exception as e:
-        print("Shortlink Error:", e)
-
+        print(e)
 
 @Bot.on_message(filters.command('start') & filters.private)
 async def start_command(client: Client, message: Message):
