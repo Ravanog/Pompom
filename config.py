@@ -30,15 +30,15 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
 # START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/VY6XFjwL/x.jpg https://i.ibb.co/5gsgN0CN/x.jpg https://i.ibb.co/Fq7CFJxF/x.jpg https://i.ibb.co/4Zk5RcL1/x.jpg https://i.ibb.co/4wJ6kxLn/x.jpg")
 START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/VY6XFjwL/x.jpg https://i.ibb.co/5gsgN0CN/x.jpg https://i.ibb.co/Fq7CFJxF/x.jpg https://i.ibb.co/4Zk5RcL1/x.jpg https://i.ibb.co/4wJ6kxLn/x.jpg").split()
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://image-link.edgeone.app/1784903470529-yptuw1.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://i.ibb.co/5gsgN0CN/x.jpg")
 
 #--------------------------------------------
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/HK_How_To_Open/2")
+TUT_VID = os.environ.get("TUT_VID","")
 SHORT_MSG = "<b><blockquote>⌯ 🔗 ʏᴏᴜʀ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ɪꜱ ʀᴇᴀᴅʏ!</blockquote> \n⚠️ ᴡᴀᴛᴄʜ ᴛʜᴇ ᴛᴜᴛᴏʀɪᴀʟ ғɪʀꜱᴛ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ''ᴅᴏᴡɴʟᴏᴀᴅ''.......</b>"
 
-SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://image-link.edgeone.app/1784903800229-bmebui.jpg")
+SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://i.ibb.co/4Zk5RcL1/x.jpg")
 #--------------------------------------------
 
 #--------------------------------------------
@@ -46,7 +46,7 @@ HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏ�
 ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/TG_Bots_Support>Kannada Backup</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/TG_BOTS_UPDATE>ʜᴋ ᴄʜᴀɴɴᴇʟ ɴᴇᴛᴡᴏʀᴋ</a></blockquote></b>"
 #--------------------------------------------
 #--------------------------------------------
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {mention} 👋\n\n<blockquote>🎬 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴅᴠᴅ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ 🍿 ɪ ᴀᴍ ʏᴏᴜʀ ᴘʀɪᴠᴀᴛᴇ ᴘʀᴇᴅᴠᴅ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ 📥 ɪ sᴇᴄᴜʀᴇʟʏ sᴛᴏʀᴇ ᴘʀᴇᴅᴠᴅ ᴍᴏᴠɪᴇ ғɪʟᴇs ɪɴ ᴀ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🔗 ᴇᴠᴇʀʏ ғɪʟᴇ ɪs ᴀᴄᴄᴇssɪʙʟᴇ ᴏɴʟʏ ᴠɪᴀ ᴀ sᴇᴄᴜʀᴇ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote>\n\n <i>⚡ ғᴀsᴛ • sᴇᴄᴜʀᴇ • ᴘʀɪᴠᴀᴛᴇ </i>\n\n<blockquote>📢 ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ɢʀᴏᴜᴘ ʙᴇʟᴏᴡ ғᴏʀ ᴛʜᴇ ʟᴀᴛᴇsᴛ ᴜᴘᴅᴀᴛᴇs, ɴᴇᴡ ʀᴇʟᴇᴀsᴇs, ᴀɴᴅ sᴜᴘᴘᴏʀᴛ. ❤️ </blockquote></b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {mention} 👋\n\n<blockquote>🎬 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ 🍿 ɪ ᴀᴍ ʏᴏᴜʀ ᴘʀɪᴠᴀᴛᴇ ᴘʀᴇᴅᴠᴅ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ 📥 ɪ sᴇᴄᴜʀᴇʟʏ sᴛᴏʀᴇ ᴘʀᴇᴅᴠᴅ ᴍᴏᴠɪᴇ ғɪʟᴇs ɪɴ ᴀ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🔗 ᴇᴠᴇʀʏ ғɪʟᴇ ɪs ᴀᴄᴄᴇssɪʙʟᴇ ᴏɴʟʏ ᴠɪᴀ ᴀ sᴇᴄᴜʀᴇ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote>\n\n <i>⚡ ғᴀsᴛ • sᴇᴄᴜʀᴇ • ᴘʀɪᴠᴀᴛᴇ </i>\n\n<blockquote>📢 ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ɢʀᴏᴜᴘ ʙᴇʟᴏᴡ ғᴏʀ ᴛʜᴇ ʟᴀᴛᴇsᴛ ᴜᴘᴅᴀᴛᴇs, ɴᴇᴡ ʀᴇʟᴇᴀsᴇs, ᴀɴᴅ sᴜᴘᴘᴏʀᴛ. @Hari_Moviez ❤️ </blockquote></b>")
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {mention} 👋\n\n<b><blockquote>🔒 ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ, ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴀʟʟ ᴛʜᴇ ᴄʜᴀɴɴᴇʟs ʙᴇʟᴏᴡ. ♻️ ᴀғᴛᴇʀ ᴊᴏɪɴɪɴɢ, ᴄʟɪᴄᴋ ''ᴛʜᴇ ʀᴇʟᴏᴀᴅ''  ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛᴇᴅ ғɪʟᴇ.</b></blockquote>")
 
 CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockquote>
@@ -84,10 +84,10 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 
 #==========================(BUY PREMIUM)====================#
 
-OWNER_TAG = os.environ.get("OWNER_TAG", "Harikushal")
-UPI_ID = os.environ.get("UPI_ID", "harikushal@slc")
-QR_PIC = os.environ.get("QR_PIC", "https://i.ibb.co/VcFmGqSF/image.jpg")
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/Harikushal")
+OWNER_TAG = os.environ.get("OWNER_TAG", "Hari_Moviez")
+UPI_ID = os.environ.get("UPI_ID", "Not Available")
+QR_PIC = os.environ.get("QR_PIC", "https://i.ibb.co/5gsgN0CN/x.jpg")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/Hari_Moviez")
 #--------------------------------------------
 #Time and its price
 #7 Days
