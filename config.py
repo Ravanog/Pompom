@@ -21,7 +21,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7253187871")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://pick:pick@cluster0.ybshzzm.mongodb.net/?appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://anikush8310_db_user:mIE1xcFcYComgN04@cluster0.32kt1j6.mongodb.net/?appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluooo")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "0"))  # 0 means no expiry
@@ -33,8 +33,8 @@ START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/VY6XFjwL/x.jpg https:/
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://image-link.edgeone.app/1784903470529-yptuw1.jpg")
 
 #--------------------------------------------
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "7ec0f6c62f20266998ba5a7ae16a1e1095cad590")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/HK_How_To_Open/2")
 SHORT_MSG = "<b><blockquote>⌯ 🔗 ʏᴏᴜʀ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ɪꜱ ʀᴇᴀᴅʏ!</blockquote> \n⚠️ ᴡᴀᴛᴄʜ ᴛʜᴇ ᴛᴜᴛᴏʀɪᴀʟ ғɪʀꜱᴛ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ''ᴅᴏᴡɴʟᴏᴀᴅ''.......</b>"
 
